@@ -25,12 +25,12 @@ void draw() {
       fill(Red);
    } 
    
-   if (keyCode == LEFT) {
+   if (keyCode == LEFT) { //Press left arrow key then R to change hue to rose
      Red = rose;
-   } else if (keyCode == RIGHT) {
+   } else if (keyCode == RIGHT) { //Press right arrow key then R to change hue to orange
       Red = orange;
    } 
-     if (keyCode == DOWN) {
+     if (keyCode == DOWN) { //Press down arrow key then R to change hue back to Red
       Red = color(255, 0, 0);
    } 
    
